@@ -25,3 +25,24 @@ therefore: 5 % 2 = 1
 14 ÷ 4 = 3 x 4 + 2, remainder is 2.
 
 therefore: 14 % 4 = 2
+
+#####################################################################################################################################################
+
+#Leap year :
+
+leapyr = int(input("Please enter the Year!\n"))
+
+if leapyr % 4 == 0:
+  if leapyr % 100 == 0:
+    if leapyr % 400 ==0:
+      print("Leap year")
+    else:
+      print("Not a Leap Year")
+  else:
+    print("Leap year")
+else:
+  print("Not a leap Year")
+
+
+
+
